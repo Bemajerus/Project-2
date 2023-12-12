@@ -1,0 +1,53 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 20px;
+    font-size: 16px;
+}
+
+#intro, #question-container {
+    max-width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 40px;
+    border: 1px solid #ad1515;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+#intro {
+    text-align: left;
+}
+
+#explanation {
+    margin-top: 15px;
+    color: red;
+    font-style: italic;
+}
+
+#statistics {
+    margin-top: 20px;
+}
+
+#statistics p {
+    font-weight: bold;
+}
+
+#statistics ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#statistics li {
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+/* Small screens correction */
+
+@media screen and (max-width: 600px) {
+    #intro, #question-container {
+        max-width: 100%;
+        padding: 20px;
+    }
+    
+}

@@ -178,7 +178,7 @@ const questions = [
 let currentQuestionIndex = 0;
 
 function showQuestion () {
-    const questionContainer = document.getElementById('question');
+    const questionContainer = document.getElementById('questions');
     const optionsContainer = document.getElementById('options');
     const explanationContainer = document.getElementById('explanation');
     const currentQuestion = questions[currentQuestionIndex];

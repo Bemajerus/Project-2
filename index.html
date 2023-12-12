@@ -33,17 +33,26 @@
                     <li><img class="drop-image" src="assets/images/blood-drop.png"> Blood donation is a voluntary and altruistic act that cannot be artificially manufactured.</li>
                 </ul>
             </div>
+
+            <button id="openModalButton" class="button-start">Start Questionnaire</button>
+
+            <div id="questionModal" class="modal">
+                <div class="modal-content">
+                    <span class="close" id="closeModalButton">&times;</span>
+
+                    <div id="question-container">
+                        
+                        <h2>Questionnaire</h2>
+                        <div id="questions"></div>
+                        <div id="options"></div>
+                        <div id="explanation"></div>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
-        <div id="question-container">
-            
-            <h2>Questionnaire</h2>
-            <div id="questions"></div>
-            <div id="options"></div>
-            <div id="explanation"></div>
-        </div>
-
-        <script src="assets/js/script.js"></script>
+<script type="module" src="assets/js/script.js"></script>
     
 </body>
 </html>

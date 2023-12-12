@@ -24,6 +24,17 @@ body {
     margin-left: 15%;
 }
 
+button {
+    padding: 12px;
+    background-color: #ad1515;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    margin: 10px;
+}
+
 #explanation {
     margin-top: 15px;
     color: red;

@@ -198,3 +198,23 @@ function showQuestion () {
     explanationContainer.textContent = "";
 }
 
+function handleAnswer(userAnswer) {
+    const currentQuestion = questions[currentQuestionIndex];
+
+    if (userAnswer === currentQuestion.correctAnswer) {
+
+        currentQuestionIndex++;
+
+        if (currentQuestionIndex < questions.length) {
+            showQuestion();
+        } else {
+            document.getElementById('questionContainer').innerHTML = "<h2>Thank you for answering all questions! You can donate blood!</h2>";
+        }
+    } else {
+        const explanationContainer = document.getElementById('explanation');
+        explanationContainer.textContent = currentQuestion. explanation;
+    }
+}
+
+// Show the first question on page load
+showQuestion();

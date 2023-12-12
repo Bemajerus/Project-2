@@ -18,6 +18,12 @@ body {
     text-align: left;
 }
 
+.intro-image {
+    max-width: 70%;
+    height: auto;
+    margin-left: 15%;
+}
+
 #explanation {
     margin-top: 15px;
     color: red;

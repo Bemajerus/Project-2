@@ -4,16 +4,10 @@ let currentQuestionIndex = 0;
 
 // Button to open the modal
 const openModalButton = document.getElementById('open-modal-button');
-
 // Modal
 const questionModal = document.getElementById('question-modal');
-
 // Button to close the modal
 const closeModalButton = document.getElementById('close-modal-button');
-
-// Id to hide the buttons
-const yesButton = document.getElementById('yesButton');
-const noButton = document.getElementById('noButton');
 
 // Add an event listener for closing the modal
 closeModalButton.addEventListener('click', () => {
@@ -37,7 +31,8 @@ function showQuestion() {
     const optionsContainer = document.getElementById('options');
     const explanationContainer = document.getElementById('explanation');
     const currentQuestion = questions[currentQuestionIndex];
-    
+    const yesButton = document.getElementById('yesButton');
+    const noButton = document.getElementById('noButton');
 
     questionContainer.textContent = currentQuestion.question;
     optionsContainer.innerHTML = "";

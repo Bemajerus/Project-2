@@ -1,7 +1,9 @@
 body {
     font-family: 'Roboto', sans-serif;
-    margin: 20px;
     font-size: 16px;
+    margin: 20px;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 #intro, #question-container {

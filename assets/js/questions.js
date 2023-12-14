@@ -39,140 +39,62 @@ const questions = [
         question: "Have you seen a doctor or had any medical tests or investigations in the last 12 months e.g. xrays, scans and or endoscopy?",
         options: ["Yes", "No"],
         correctAnswer: "No",
-        explanation: ""
+        explanation: "If you were diagnosed with a medical condition or illness please check the FAQ's or contact us on 1800 731 137 so we can advise you | You cannot donate if you had an endoscopy ( scope) in the last 4 months | Xrays/scans are not a reason for deferral however the reason for the investigation or outcome of the result could be"
     },
     {
-        question: "",
+        question: "Have you had dental treatment in the last 4 weeks?",
         options: ["Yes", "No"],
         correctAnswer: "No",
-        explanation: ""
+        explanation: "Uncomplicated filling / scale or polish - Must wait for 24 hours prior to attending a clinic | Uncomplicated extraction / tooth removal must wait for 7 days"
     },
     {
-        question: "",
+        question: "Have you had a tattoo or piercing in the last 4 months?",
         options: ["Yes", "No"],
         correctAnswer: "No",
-        explanation: ""
+        explanation: "You cannot donate if you have had a tattoo or piercing in the last 4 months."
     },
     {
-        question: "",
+        question: "Have you had Dry Needling or Acupuncture in the last 4 months ?",
         options: ["Yes", "No"],
         correctAnswer: "No",
-        explanation: ""
+        explanation: "You can donate if either treatment has been performed by a Medical Practitioner(MP) registered with the Irish Medical Council, or by a Registered General Nurse with the NMBI working for a MP registered with the Irish Medical Council"
     },
     {
-        question: "",
+        question: "Were you born outside of Ireland or the UK?",
         options: ["Yes", "No"],
         correctAnswer: "No",
-        explanation: ""
+        explanation: "Because you were born outside of Ireland and the UK, on your first attendance we will not collect a blood donation from you. We will ask you to complete a health and lifestyle questionnaire and assess your eligibility to donate. If you are eligible we will take some blood samples from you and you will be able to return to donate in 42 days."
     },
     {
-        question: "",
+        question: "Have you been outside of Ireland or the UK (on holidays or on business) in the last 12 months?",
         options: ["Yes", "No"],
         correctAnswer: "No",
-        explanation: ""
+        explanation: "Following return from a Malarial risk area where the duration of the stay was less than 6 months continuously (i.e. holiday or business trip) you cannot donate for 12 months (365 day) from the day you leave the area. Please contact us at 1800 731137 for further information."
     },
     {
-        question: "",
+        question: "Do you have Diabetes?",
         options: ["Yes", "No"],
         correctAnswer: "No",
-        explanation: ""
+        explanation: "You can give blood if your diabetes is well controlled through diet alone and if you have no complications from your diabetes such as eye disease, blood vessel related or kidney problems. You cannot give blood if you require insulin injections to control your diabetes. You may be able to donate if you require oral hypoglycaemic tablets - Please contact us  on 1800 731 137 ."
     },
     {
-        question: "",
+        question: "Do you have a Heart Condition?",
         options: ["Yes", "No"],
         correctAnswer: "No",
-        explanation: ""
+        explanation: "You cannot donate if you have ever had: Angina, Angioplasty, Atrial fibrilation A-Fib, Coronary artery bypass surgery, Heart Attack, Ischaemic heart disease or Coronary disease, Stroke or TIA, you cannot donate of taking anti-coagulant treatment"
     },
     {
-        question: "",
+        question: "Have you ever had Cancer?",
         options: ["Yes", "No"],
         correctAnswer: "No",
-        explanation: ""
+        explanation: "You cannot give blood if you have had cancer, even if the cancer has been treated and you are well at present."
     },
     {
-        question: "",
+        question: "Do you have Asthma?",
         options: ["Yes", "No"],
         correctAnswer: "No",
-        explanation: ""
-    },
-    {
-        question: "",
-        options: ["Yes", "No"],
-        correctAnswer: "No",
-        explanation: ""
-    },
-    {
-        question: "",
-        options: ["Yes", "No"],
-        correctAnswer: "No",
-        explanation: ""
-    },
-    {
-        question: "",
-        options: ["Yes", "No"],
-        correctAnswer: "No",
-        explanation: ""
-    },
-    {
-        question: "",
-        options: ["Yes", "No"],
-        correctAnswer: "No",
-        explanation: ""
-    },
-    {
-        question: "",
-        options: ["Yes", "No"],
-        correctAnswer: "No",
-        explanation: ""
-    },
-    {
-        question: "",
-        options: ["Yes", "No"],
-        correctAnswer: "No",
-        explanation: ""
-    },
-    {
-        question: "",
-        options: ["Yes", "No"],
-        correctAnswer: "No",
-        explanation: ""
-    },
-    {
-        question: "",
-        options: ["Yes", "No"],
-        correctAnswer: "No",
-        explanation: ""
-    },
-    {
-        question: "",
-        options: ["Yes", "No"],
-        correctAnswer: "No",
-        explanation: ""
-    },
-    {
-        question: "",
-        options: ["Yes", "No"],
-        correctAnswer: "No",
-        explanation: ""
-    },
-    {
-        question: "",
-        options: ["Yes", "No"],
-        correctAnswer: "No",
-        explanation: ""
-    },
-    {
-        question: "",
-        options: ["Yes", "No"],
-        correctAnswer: "No",
-        explanation: ""
-    },
-    {
-        question: "",
-        options: ["Yes", "No"],
-        correctAnswer: "No",
-        explanation: ""
-    },
+        explanation: "You can give blood if you have mild asthma and require only occasional use of inhalers or if you are on a regular preventative treatment programme with inhalers and do not have active symptoms at present."
+    }
 ];
 
 export default questions;

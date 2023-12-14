@@ -26,11 +26,13 @@ openModalButton.addEventListener('click', () => {
 });
 
 // Function to show the current question
-function showQuestion () {
+function showQuestion() {
     const questionContainer = document.getElementById('questions');
     const optionsContainer = document.getElementById('options');
     const explanationContainer = document.getElementById('explanation');
     const currentQuestion = questions[currentQuestionIndex];
+    const yesButton = document.getElementById('yesButton');
+    const noButton = document.getElementById('noButton');
 
     questionContainer.textContent = currentQuestion.question;
     optionsContainer.innerHTML = "";
@@ -39,6 +41,14 @@ function showQuestion () {
         const optionButton = document.createElement('button');
         optionButton.type = 'button';
         optionButton.textContent = option;
+
+        // Add IDs to the Yes and No buttons during creation to be able to hide them later
+        if (index === 0) {
+            optionButton.id = 'yesButton';
+        } else if (index === 1) {
+            optionButton.id = 'noButton';
+        }
+
         optionButton.addEventListener('click', () => handleAnswer(option));
 
         optionsContainer.appendChild(optionButton);
@@ -46,6 +56,7 @@ function showQuestion () {
 
     explanationContainer.textContent = "";
 }
+
 
 // Function to check the user's answer
 function handleAnswer(userAnswer) {
@@ -58,10 +69,13 @@ function handleAnswer(userAnswer) {
         if (currentQuestionIndex < questions.length) {
             showQuestion();
         } else {
-            document.getElementById('questionContainer').innerHTML = "<h2>Thank you for answering all questions!</h2>";
+            document.getElementById('questions').innerHTML = "<h2>Thank you for answering all questions! For detailed information, visit giveblood.ie</h2>";
+            document.getElementById('explanation').innerHTML = "";
+            yesButton.style.display = 'none'; // Hide the Yes button
+            noButton.style.display = 'none';  // Hide the No button
         }
     } else {
         const explanationContainer = document.getElementById('explanation');
-        explanationContainer.textContent = currentQuestion. explanation;
+        explanationContainer.textContent = currentQuestion.explanation;
     }
 }

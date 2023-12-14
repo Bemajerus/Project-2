@@ -6,6 +6,7 @@ body {
     box-sizing: border-box;
 }
 
+/* Styling size and visuals of content */
 #intro, #question-container {
     max-width: 80%;
     margin: auto;
@@ -41,12 +42,14 @@ button {
     margin: 0;
 }
 
+/* Styling explanation section font */
 #explanation {
     margin-top: 15px;
     color: red;
     font-style: italic;
 }
 
+/* Styling statistics section */
 #statistics {
     margin-top: 20px;
 }
@@ -65,13 +68,13 @@ button {
     text-decoration: none;
 }
 
+/* Styling blood drop image */
 .drop-image {
     height: 20px;
     width: 20px;
 }
 
 /* Styling the modal pop-up */
-
 .modal {
     display: none;
     position: fixed;
@@ -101,8 +104,7 @@ button {
     cursor: pointer;
 }
 
-/* Small screens correction */
-
+/* Small screens resize */
 @media screen and (max-width: 600px) {
     #intro, #question-container {
         max-width: 100%;

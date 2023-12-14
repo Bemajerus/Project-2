@@ -3,11 +3,11 @@ import questions from "./questions.js";
 let currentQuestionIndex = 0;
 
 // Button to open the modal
-const openModalButton = document.getElementById('openModalButton');
+const openModalButton = document.getElementById('open-modal-button');
 // Modal
-const questionModal = document.getElementById('questionModal');
+const questionModal = document.getElementById('question-modal');
 // Button to close the modal
-const closeModalButton = document.getElementById('closeModalButton');
+const closeModalButton = document.getElementById('close-modal-button');
 
 // Add an event listener for closing the modal
 closeModalButton.addEventListener('click', () => {

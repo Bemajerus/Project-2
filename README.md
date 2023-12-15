@@ -4,6 +4,7 @@ Blood Donatiom Questionnaire simplifies the blood donation process with a concis
 
 ![Responsive Mockup](assets/images/mockup.JPG)
 
+
 ## Features
 
 Built upon robust HTML, CSS, and JavaScript foundations, the Blood Donation Questionnaire employs modern web technologies to deliver an intuitive and responsive user interface. JavaScript functionalities drive the dynamic modal-based questionnaire, enhancing user interaction and providing real-time feedback. This technology synergy underscores the commitment to creating a seamless, informative, and purpose-driven digital space.
@@ -33,3 +34,39 @@ Built upon robust HTML, CSS, and JavaScript foundations, the Blood Donation Ques
   - The Blood Donation Questionnaire integrates concise explanations strategically placed alongside questions. These serve as informative guides, empowering users with the knowledge needed to assess their eligibility for blood donation. This approach fosters transparency, builds trust, and ensures a positive and informed donation experience.
 
 ![explanation](assets/images/explanation-image.JPG)
+
+
+## Testing 
+
+The code undergoes testing to ensure smooth and error-free functionality across various devices and browsers. It successfully passes all tests, guaranteeing a reliable and consistent user experience.
+
+- __Desktop Version__
+
+![desktop](assets/images/desktop-image.JPG)
+
+- __Mobile Version__
+
+![mobile](assets/images/mobile-image.JPG)
+
+
+### Validator Testing 
+
+- HTML
+    - No errors were returned when passing through the official W3C validator
+      ![w3c](assets/images/html-check.JPG)
+      
+- CSS
+    - No errors were found when passing through the official Jigsaw validator
+    - ![jigsaw](assets/images/css-check.JPG)
+      
+- Lighthouse
+    - Lighthouse score
+      ![lighthouse](assets/images/lighthouse-image.JPG)
+      
+- JavaScript
+    - No errors were found when passing through the official Jshint validator
+      - The following metrics were returned: 
+      - There are 6 functions in this file.
+      - Function with the largest signature take 2 arguments, while the median is 0.
+      - Largest function has 11 statements in it, while the median is 5.5.
+      - The most complex function has a cyclomatic complexity value of 3 while the median is 1.

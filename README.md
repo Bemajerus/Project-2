@@ -102,5 +102,15 @@ To fork the repository:
 **HTML5** - The core of the site was built with HTML version 5.\
 **CSS** - CSS was used to style the website and define fonts and layout.\
 **JavaScript** - Implemented for dynamic and interactive features.\
-**Google Chrome** - The website was built and tested in google Chrome.\
+**Google Chrome** - The website was built and tested in google Chrome.
 
+
+## Credits 
+
+### Content 
+
+- All questions and explanations were taken from the giveblood.ie website.
+
+### Media
+
+- The images used for the page were taken from Google Images.

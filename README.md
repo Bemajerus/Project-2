@@ -70,3 +70,37 @@ The code undergoes testing to ensure smooth and error-free functionality across 
       - Function with the largest signature take 2 arguments, while the median is 0.
       - Largest function has 11 statements in it, while the median is 5.5.
       - The most complex function has a cyclomatic complexity value of 3 while the median is 1.
+
+## Deployment & Local Development
+
+### Deployment
+
+I deployed everything my website onto gitpages.
+
+### Local Development
+
+#### How to Clone
+
+1. Log into your account on github
+2. Go to the repository of this project Bemajerus/Project-2/
+3. Click on the code button, and copy your preferred clone link.
+4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+5. Type 'git clone' into the terminal, paste the link you copied in step 3 and press enter.
+
+#### How to Fork
+
+To fork the repository:
+
+1. Log in (or sign up) to Github.
+2. Go to the repository for this project, Bemajerus/Project-2/
+3. Click the Fork button in the top right corner.
+
+## Technologies Used
+
+**Github** - Used for storage of my site and for publishing online.\
+**Visual Studio Code** - The IDE used for editing my site and pushing changes.\
+**HTML5** - The core of the site was built with HTML version 5.\
+**CSS** - CSS was used to style the website and define fonts and layout.\
+**JavaScript** - Implemented for dynamic and interactive features.\
+**Google Chrome** - The website was built and tested in google Chrome.\
+
